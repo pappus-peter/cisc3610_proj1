@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fruit Lab</title>
+<script src="script.js"></script>
+</head>
+<body>
+
+<div id="gameArea">
+    <canvas id="myCanvas" width="800" height="600"></canvas>
+</div>
+<div>
+    <div>
+        <h3>Change your chart by editing this Text Field</h3>
+        <label for="quantity">Quantity (between 5 and 100):</label>
+    </div>
+    <div>
+        <label for="quantityRed">Apple:</label>
+        <input type="number" id="quantityRed" name="quantity" min="5" max="100" value="50">
+        <label for="quantityBlue">Grape:</label>
+        <input type="number" id="quantityBlue" name="quantity" min="5" max="100" value="30">
+        <label for="quantity">Lime:</label>
+        <input type="number" id="quantityGreen" name="quantity" min="5" max="100" value="80">
+        <button onclick="display_input()">Submit</button>
+        <p id="demo"></p> 
+    </div>
+</div>
+
+
+</body>
+</html>
