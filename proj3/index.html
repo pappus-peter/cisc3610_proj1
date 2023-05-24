@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Age Converter</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pet Age Converter   <input type="button" value="Go back!" onclick="history.back()" ></h1>
+        <form id="petForm">
+            <label for="species">Species:</label>
+            <input type="radio" name="species" value="cat" checked> Cat
+            <input type="radio" name="species" value="dog"> Dog
+            <input type="radio" name="species" value="fish"> Fish
+
+            <label for="petAge">Age:</label>
+            <input type="text" id="petAge" name="petAge">
+
+            <button type="submit">Convert</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
