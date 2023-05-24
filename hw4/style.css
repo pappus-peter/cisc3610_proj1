@@ -1,0 +1,36 @@
+body {
+    font-family: 'EB Garamond', serif;
+}
+
+.carousel-item {
+    height: 400px;
+    width: 100%;
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.section {
+    margin-bottom: 24px;
+}
+
+.title {
+    text-align: center;
+}
+
+h2 {
+    font-size: 200 px;
+    padding-bottom: 6px;
+}
+
+h4 {
+    padding-top: 5px;
+    font-size: 16 px;
+}
+
+.row {
+    margin-bottom: 16px;
+}
